@@ -1,65 +1,421 @@
-<!DOCTYPE html> <html lang="en"> 
-  <head> 
-      <meta charset="UTF-8"> 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-      <title>ASCEA Saclay section Badminton</title> 
-      <link rel="stylesheet" href="style.css"> 
-  </head> 
+<!DOCTYPE html>
+<html lang="fr">
 
-  <body> 
-    <header> 
-      
-    </header> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ASCEA Saclay section Badminton</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+
+        /* Navigation */
+        .navigation {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .navigation a {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #2c6e49;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            background-color: #1f5035;
+        }
+
+        section {
+            scroll-margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>ASCEA Saclay section Badminton</h1>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <a href="#qui-sommes-nous">Qui sommes-nous ?</a>
+            <a href="#bureau">Le bureau</a>
+            <a href="#permanence">La permanence</a>
+            <a href="#inscription">Comment s'inscrire ?</a>
+            <a href="#nous-rejoindre">Nous rejoindre</a>
+            <a href="#calendrier">Calendrier</a>
+        </nav>
+
+    </header>
+
 
     <main>
-      <article>
-        <h1>Qui sommes-nous ?</h1> 
-          <p>L'ASCEA est l'Association Sportive du Commissariat à L'Energie Atomique. Pour pouvoir adhérer aux différentes activités de l'association vous pouvez vous renseigner auprès de la permanence de l'AS (association sportive). La pratique du badminton au sein de l'ASCEA existe depuis janvier 1998.
 
-            L’activité fonctionne tout au long de l'année, des moments conviviaux jalonnent tout au long de l’année la pratique loisir du badminton. Deux tournois (simple de l’après-avent en décembre et double des as du volant en juin) sont organisés depuis plus de 10 ans. La participation de notre section aux évènements extérieurs (coupe nationale POONA, FFSE, Atomiade...) nous permet de nous confronter à d’autres équipes.
+        <article>
 
-            Pour connaitre toutes les conditions d'accès, vous pouvez aussi nous contacter par mail ou par téléphone.
-          </p> 
+            <!-- QUI SOMMES-NOUS -->
+            <section id="qui-sommes-nous">
 
-        <h2>About this recipe</h2>
+                <h2>Qui sommes-nous ?</h2>
+
+                <p>
+                    L'ASCEA est l'Association Sportive du Commissariat à L'Energie Atomique.
+                    Pour pouvoir adhérer aux différentes activités de l'association vous pouvez
+                    vous renseigner auprès de la permanence de l'AS (association sportive).
+                    La pratique du badminton au sein de l'ASCEA existe depuis janvier 1998.
+
+                    L’activité fonctionne tout au long de l'année, des moments conviviaux jalonnent
+                    tout au long de l’année la pratique loisir du badminton. Deux tournois
+                    (simple de l’après-avent en décembre et double des as du volant en juin)
+                    sont organisés depuis plus de 10 ans.
+
+                    La participation de notre section aux évènements extérieurs
+                    (coupe nationale POONA, FFSE, Atomiade...) nous permet de nous confronter
+                    à d’autres équipes.
+
+                    Pour connaitre toutes les conditions d'accès, vous pouvez aussi nous contacter
+                    par mail ou par téléphone.
+                </p>
+
+            </section>
+
+
+            <!-- BUREAU -->
+            <section id="bureau">
+
+                <h2>Les membres du bureau</h2>
+
+                <ul>
+                    <li>Stéphane POUPIN - Président</li>
+                    <li>Yann KAYSER - Trésorier</li>
+                    <li>Michael JUBLOT - Secrétaire</li>
+                    <li>Patrick MAGNIER - Responsable matériel / Made in china</li>
+                    <li>Benoit MARTELAT - "Animatrice" compétition</li>
+                    <li>Fabien CALCADO - Animateur squash / Webmaster</li>
+                </ul>
+
+            </section>
+
+
+            <!-- PERMANENCE -->
+            <section id="permanence">
+
+                <h2>La permanence</h2>
+
+                <p>
+                    L'inscription se fait le mardi de 12h45 à 13h15,
+                    à la permanence du bâtiment 471.
+
+                    En fonction de la disponibilité des GO's, vous pourrez faire une séance
+                    d'essai avant votre inscription définitive.
+
+                    Deux fiches sont à remplir lors de l'inscription :
+                </p>
+
+                <ul>
+                    <li>
+                        Pour l'ASCEA : Télécharger le formulaire d'inscription ASCEA (.pdf)
+                    </li>
+
+                    <li>
+                        Pour la section badminton : Télécharger le formulaire
+                        d'inscription à la section (.doc)
+                    </li>
+                </ul>
+
+                <p>
+                    IMPORTANT : Depuis septembre 2016, les certificats médicaux sont valables
+                    3 ans. Dans le cas où votre certificat a moins de 3 ans,
+                    il vous suffit donc juste de joindre au formulaire d'inscription
+                    ce questionnaire.
+                </p>
+
+            </section>
+
+
+            <!-- INSCRIPTION -->
+            <section id="inscription">
+
+                <h2>Comment s'inscrire ?</h2>
+
+                <p>
+                    Comme toutes les activités sportives en club, la pratique du badminton
+                    au sein de l'ASCEA est soumise à l'avis d'un médecin.
+                    Un certificat d'aptitude à la pratique de ce sport vous sera demandé
+                    lors de votre inscription.
+
+                    Cette inscription se fait en deux étapes.
+                </p>
+
+
+                <h3>Etape 1 : La carte ASCEA (photo obligatoire)</h3>
+
+                <p>
+                    La carte ASCEA est obligatoire et vous ouvre l'accès à toutes les activités
+                    sportives du CEA de Saclay.
+
+                    Pour plus d'information vous pouvez consulter le site de l'ASCEA
+                    (sur l'intranet) ici.
+                </p>
+
+
+                <h3>Tarification</h3>
+
+                <table border="1">
+
+                    <tr>
+                        <th>
+                            Agent CEA ou conjoint<br>
+                            Enfant (18 à 25 ans) à charge<br>
+                            Retraité
+                        </th>
+
+                        <td>22 euros</td>
+                    </tr>
+
+                    <tr>
+                        <th>Enfant (-18 ans)</th>
+                        <td>11 euros</td>
+                    </tr>
+
+                    <tr>
+                        <th>Adulte extérieur</th>
+                        <td>28 euros</td>
+                    </tr>
+
+                    <tr>
+                        <th>Enfant extérieur (-18 ans)</th>
+                        <td>14 euros</td>
+                    </tr>
+
+                </table>
+
+
+                <p>
+                    Pour obtenir la carte ASCEA vous devez vous présenter au bâtiment 471
+                    muni du formulaire d'inscription dûment complété.
+
+                    Pour les extérieurs ces pièces peuvent être données à un membre
+                    du bureau sur les heures de séances.
+                </p>
+
+
+                <table border="1">
+
+                    <tr>
+                        <th>Pour les anciens adhérents</th>
+
+                        <td>
+                            Carte AS de l'année précédente<br>
+                            Chèque à l'ordre de l'ASCEA ou en espèces<br>
+                            Certificat médical ou copie de licence visée médicalement
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Pour les nouveaux adhérents</th>
+
+                        <td>
+                            Badge CEA + photo d'identité<br>
+                            Chèque à l'ordre de l'ASCEA ou en espèces<br>
+                            Certificat médical ou copie de licence visée médicalement
+                        </td>
+                    </tr>
+
+                </table>
+
+
+                <p>
+                    A noter que cette carte peut vous donner droit à 10% chez Go-Sport
+                    des Ulis (sous certaines conditions à voir en magasin).
+                </p>
+
+
+                <h3>Etape 2 : La carte badminton (photo obligatoire)</h3>
+
+                <p>
+                    Cette carte devra être déposée chaque fois que vous irez jouer au Moulon
+                    sur le panneau à l'entrée du gymnase.
+
+                    En l'absence de carte, l'accès pourra vous être refusé par le gardien
+                    ou par quelconque membre du bureau.
+                </p>
+
+
+                <table border="1">
+
+                    <tr>
+                        <th>Agent CEA ou conjoint</th>
+                        <td>47 euros</td>
+                    </tr>
+
+                    <tr>
+                        <th>Enfant / Stagiaire (3 - 6 mois)</th>
+                        <td>27 euros</td>
+                    </tr>
+
+                    <tr>
+                        <th>Extérieur</th>
+                        <td>57 euros</td>
+                    </tr>
+
+                </table>
+
+            </section>
+
+
+            <!-- NOUS REJOINDRE -->
+            <section id="nous-rejoindre">
+
+                <h2>Nous rejoindre</h2>
+
+                <h3>La salle et les horaires</h3>
+
+                <p>
+                    Les terrains de badminton sont situés dans le complexe sportif
+                    du Moulon à Gif/Yvette (91) et sont au nombre de 7.
+                </p>
+
+
+                <!-- MAP -->
+                <div id="map"></div>
+
+
+                <p>
+                    La section badminton de l'ASCEA dispose de plusieurs créneaux horaires
+                    répartis pendant toute la semaine.
+
+                    Vous pourrez donc jouer selon vos disponibilités et ceci presque
+                    pendant toute l'année.
+                </p>
+
+
+                <table border="1">
+
+                    <tr>
+                        <th>Mercredi</th>
+                        <td>17h à 19h</td>
+                    </tr>
+
+                    <tr>
+                        <th>Vendredi</th>
+                        <td>19h30 à 22h</td>
+                    </tr>
+
+                </table>
+
+
+                <p>
+                    Bien entendu, il arrive parfois que le gymnase soit fermé
+                    (jours fériés, événements exceptionnels, etc...).
+
+                    Se référer au calendrier ci-dessous.
+                </p>
+
+            </section>
+
+
+            <!-- CALENDRIER -->
+            <section id="calendrier">
+
+                <h3>Calendrier</h3>
+
+                <p>
+                    A venir
+                </p>
+
+            </section>
+
+        </article>
+
+    </main>
+
+
+    <footer>
+
         <p>
-          This lemon cake is soft, light and full of fresh lemon flavor.
-          It's perfect with a cup of tea or coffee.
+            En vrai les gens sont sympa, n'hésitez pas à venir vous amuser
+            ou à contribuer à l'asso en devenant bénévole !
         </p>
 
-        <h2>Ingredients</h2>
-        <ul>
-          <li>200 g flour</li>
-          <li>150 g sugar</li>
-          <li>100 g butter</li>
-          <li>2 eggs</li>
-          <li>1 lemon</li>
-          <li>1 teaspoon baking powder</li>
-          <li>A pinch of salt</li>
-        </ul>
+    </footer>
 
-        <h2>Instructions</h2>
-        <ol>
-          <li>Preheat your oven to 180°C.</li>
-          <li>Melt the butter and let it cool slightly.</li>
-          <li>Mix the eggs and sugar until smooth.</li>
-          <li>Add the butter and the juice and zest of the lemon.</li>
-          <li>Stir in the flour, baking powder and salt.</li>
-          <li>Pour the batter into a cake pan.</li>
-          <li>Bake for about 30–35 minutes.</li>
-          <li>Let the cake cool before serving.</li>
-        </ol>
 
-        <h2>My tip</h2>
-        <p>
-          For an extra lemony flavor, add a little lemon zest on top
-          before serving.
-        </p>
-      </article>
-    </main> 
+    <!-- GOOGLE MAPS -->
 
-    <footer> 
-      <p>Made with love and lots of lemon.</p> 
-    </footer> 
-  </body> 
+    <script>
+
+        async function initMap() {
+
+            const { Map } = await google.maps.importLibrary("maps");
+
+            const { AdvancedMarkerElement } =
+                await google.maps.importLibrary("marker");
+
+
+            /*
+             * Coordinates of the Moulon sports complex.
+             * Change these coordinates if necessary.
+             */
+
+            const gymnase = {
+                lat: 48.716,
+                lng: 2.166
+            };
+
+
+            const map = new Map(
+                document.getElementById("map"),
+                {
+                    zoom: 15,
+                    center: gymnase,
+                    mapId: "DEMO_MAP_ID"
+                }
+            );
+
+
+            const marker = new AdvancedMarkerElement({
+                map: map,
+                position: gymnase,
+                title: "Complexe sportif du Moulon"
+            });
+
+        }
+
+    </script>
+
+
+    <!--
+        IMPORTANT:
+        Replace YOUR_API_KEY with your Google Maps API key.
+    -->
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&loading=async&callback=initMap"
+        async
+        defer>
+    </script>
+
+
+</body>
+
 </html>
